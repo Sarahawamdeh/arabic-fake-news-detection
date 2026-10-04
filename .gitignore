@@ -1,0 +1,27 @@
+# Secrets - never commit
+.env
+kaggle.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Data and trained models (large, re-downloadable)
+AFND/
+arabic-fake-news-dataset-afnd.zip
+results/
+ArabicFN_Model/
+*.safetensors
+*.bin
+*.pt
+
+# OS / editor
+.DS_Store
+.vscode/
